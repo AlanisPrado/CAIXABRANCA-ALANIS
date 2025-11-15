@@ -1,0 +1,14 @@
+PROJETO / SISTEMA;;;;
+REVISOR;;;;
+DATA DA REVISÃO;;;DD/MM/AAAA;
+ID;ITEM;STATUS;ARTEFATO COM ERRO;CORREÇÕES A SEREM REALIZADAS
+1;O código foi devidamente documentado?;NÃO;Classe User;O codigo não tem nenhum comentario explicando o que cada parte faz. Seria importante informar o que cada método faz ou o proposito dele como ConectarBD(), isso iria facilitar para as outras pessoas a compreender o codigo
+2;As variáveis e constantes possuem nomenclatura?;SIM;;
+3;Existem legibilidade e organização no código?;SIM;;
+4;Todos os NullPointers foram tratados?;SIM;;
+5;As conexões utilizadas foram fechadas?;NÃO;Classe User;As conexões com o banco, o Statement e o ResultSet não estão sendo fechados. Isso pode causar vazamento de recursos no sistema. O ideal é fechar tudo dentro de um bloco.
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
